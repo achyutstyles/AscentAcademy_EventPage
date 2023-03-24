@@ -1,0 +1,73 @@
+header {
+    background-color: #333;
+    color: rgb(118, 221, 216);
+    padding: 20px;
+  }
+  body{
+      background-color: rgb(197, 204, 186);
+  }
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  nav a {
+    color: rgb(148, 127, 187);
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  nav a:hover {
+    text-decoration:underline;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  h2 {
+    font-size: 24px;
+    color: #0c1546;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #0c6c75;
+  }
+  input[type="text"], input[type="email"], input[type="tel"], input[type="submit"] {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  input[type="submit"] {
+    background-color: #375777;
+    color: rgb(212, 208, 208);
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  input[type="submit"]:hover {
+    background-color: #1c4257;
+  }
+  ::placeholder {
+    color: #ad9494;
+    background-color: #dbebcc;
+  }
